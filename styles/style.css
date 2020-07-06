@@ -402,10 +402,15 @@ footer {
     border-radius: 50%;
 }
 
+.location-info a {
+    color: #5f6368;
+}
+
 .help-links {
     margin-top: 1rem;
 }
 
 .help-links a {
     margin-right: 2.5rem;
+    color: #5f6368;
 }
