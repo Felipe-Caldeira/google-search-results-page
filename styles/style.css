@@ -177,7 +177,7 @@ input[type=search]:focus {
     position: relative;
 }
 
-.selected-setting span {
+.selected-setting a {
     color: #1A73E8;
 }
 
