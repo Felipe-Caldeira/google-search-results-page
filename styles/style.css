@@ -1,0 +1,215 @@
+html {
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5f6368;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 15.2rem 69rem auto;
+    grid-template-rows: 6rem 5.3rem;
+    justify-items: start;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+#logo {
+    grid-column: 1/2;
+    height: 3.1rem;
+    width: auto;
+    padding-left: 1.7rem;
+}
+
+#search-bar {
+    grid-column: 2/3;
+    position: relative;
+    justify-self: stretch;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4.5rem;
+}
+
+#search-bar-icons {
+    display: flex;
+    position: absolute;
+    right: 1.8rem;
+    justify-content: flex-end;
+    
+    height: 3rem;
+    width: 10rem;
+}
+
+#search-bar-icons a {
+    width: 4rem;
+    color: #80868b;
+}
+
+#search-bar-icons a svg {
+    height: 100%;
+    width: 2.5rem;
+    fill: currentColor;
+}
+
+#search-bar-icon-line {
+    height: 100%;
+    border-left-style: solid;
+    border-left-color: rgb(223, 225, 229);
+    border-left-width: .1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#microphone-icon {
+    margin-right: 1.2rem;
+}
+
+button[type=submit] {
+    display: block;
+    border-style: none;
+    background-color: white;
+    padding: 0rem;
+    width: 222rem;
+}
+
+button[type=submit] svg{
+    width: 2.4rem;
+    fill: #4285f4;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+input[type=search] {
+    -webkit-appearance:none;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .1);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, .87);
+    padding-top: 0rem;
+    padding-left: 2rem;
+}  
+
+input[type=search]:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+input[type=search]:focus {
+    outline: none;
+}
+
+#search-settings-container {
+    grid-column: 2/3;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: .8rem;
+    
+    font-size: 1.3rem;
+    color: #5f6368;
+    
+    display: grid;
+    grid-template-columns: repeat(6, auto) 7rem repeat(3, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+#apps-and-profile {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#apps {
+    position: relative;
+    margin-right: 2rem;
+    top: .2rem;
+    width: 2.4rem;
+    color: #5f6368;
+}
+
+#apps svg {
+    height: 100%; 
+    fill: currentColor;
+}
+
+#profile {
+    position: relative;
+    margin-right: 3.4rem;
+    top: .2rem;
+}
+
+#profile img {
+    border-radius: 50%;
+}
+
+.search-setting {
+    display: flex;
+    align-items: flex-end;
+}
+
+.selected-setting {
+    color: #1A73E8;
+    position: relative;
+}
+
+.selected-indicator {
+    position: absolute;
+    width: 5.8rem;
+    height: 2px;
+    top: 2.8rem;
+    right: -1.3rem;
+    background-color: #1A73E8;
+}
+
+.icon svg {
+    display: flex;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: .5rem;
+    fill: currentColor
+}
+
+hr {
+    position: relative;
+    left: -5%;
+    bottom: .5rem;
+    border: none;
+    width: 120%;
+    height: 1px;
+    margin: 0px;
+    background: rgba(204, 204, 204, 0.466);
+}
+
+/* Main content */
+
+main {
+    width: 90%;
+    height: auto;
+    padding-left: 12%;
+}
+
+#result-stats {
+    color: #70757a;
+    font-size: 1.4rem;
+    margin-top: .5rem;
+}
