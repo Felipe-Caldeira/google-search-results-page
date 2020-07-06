@@ -177,6 +177,10 @@ input[type=search]:focus {
     position: relative;
 }
 
+.selected-setting a:visited {
+    color: #1A73E8;
+}
+
 .selected-indicator {
     position: absolute;
     width: 5.8rem;
